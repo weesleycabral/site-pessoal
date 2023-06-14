@@ -12,4 +12,8 @@ export class HomeComponent implements OnInit {
   ngOnInit() {
   }
 
+  alertMessage() {
+    alert('n ta pronto ainda..')
+  }
+
 }
