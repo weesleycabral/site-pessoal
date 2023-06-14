@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    padding: 10px;
+    background-color: grey;
+    margin: auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.line {
+    border-top: 1px solid black;
+    margin-top: 0.6rem;
+}
+
+.social_medias {
+    padding-right: 5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.name_logo {
+    padding-left: 5em;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.linkedin,
+.github,
+.email {
+    padding-left: 0.7em;
+    font-size: 3.75rem;
+}
+
+.image {
+    width: 31rem;
+}
+
+.inprogress {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.1rem;
+}
