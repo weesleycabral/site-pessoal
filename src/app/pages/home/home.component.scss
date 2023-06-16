@@ -20,6 +20,32 @@
     position: relative;
 }
 
+.h1 {
+  max-width: 480px;
+  text-align: center;
+  margin: 60px auto;
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+  font-size: 20px;
+}
+
+.h1::after {
+  content: '|';
+  opacity: 1;
+  margin-left: 5px;
+  display: inline-block;
+  animation: blink .7s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
 .container::before {
     content: '';
     position: fixed;
@@ -105,6 +131,42 @@ header {
     font-weight: bold;
 }
 
+.con {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.con p {
+  font-size: 3rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  overflow: hidden;
+}
+.con p span.typed-text {
+  font-weight: normal;
+  color: #dd7732;
+}
+.con p span.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.con p span.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
 .linkedin,
 .github,
 .email {
@@ -122,3 +184,4 @@ header {
         border-color: transparent;
     }
 }
+
