@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'site-pessoal';
+  setMode = false;
+
+  receiveMode($event) {
+    this.setMode = $event;
+    console.log("MODEEEE", this.setMode);
+  }
 }
