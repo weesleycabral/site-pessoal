@@ -1,0 +1,33 @@
+.name_logo {
+  color: white;
+  padding-left: 5em;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.header-components {
+  cursor: pointer;
+  padding-right: 50px;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2em;
+}
+
+.header-text1 {
+  padding-right: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+.header-text2 {
+  padding-right: 50px;
+  text-decoration: none;
+  color: #808080;
+  cursor: not-allowed;
+}
+
+.header-text1:hover
+ {
+  color: black;
+}

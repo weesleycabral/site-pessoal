@@ -13,9 +13,7 @@ export class HomeComponent implements OnInit {
   nomeMotrar = "";
 
   public totalTime = 0;
-  @Output() mode = new EventEmitter<boolean>();
 
-  setDark = false;
 
   constructor() {}
 
@@ -62,10 +60,6 @@ export class HomeComponent implements OnInit {
     typeWriterLoop();
   }
 
-  onChangeToggle() {
-    this.setDark = !this.setDark;
-    this.mode.emit(this.setDark);
-    console.log(this.setDark);
-  }
+
 
 }
