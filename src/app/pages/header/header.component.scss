@@ -31,3 +31,19 @@
  {
   color: black;
 }
+
+.home {
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+  padding-right: 90rem;
+}
+
+.header-text3 {
+  color: white;
+  text-decoration: none;
+}
+
+.header-text3:hover{
+  color: black;
+}
