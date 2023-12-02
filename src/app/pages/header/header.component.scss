@@ -1,49 +1,90 @@
-.name_logo {
-  color: white;
-  padding-left: 5em;
-  margin-right: 20px;
-  font-weight: bold;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.header-components {
-  cursor: pointer;
-  padding-right: 50px;
-  color: white;
+a {
+  text-decoration: none;
+}
+
+.about {
+  color: #fff;
+}
+
+
+.about:hover, .icon:hover {
+  color: #33D2FF;
+  transition: 0.3s ease;
+}
+
+li {
+  list-style: none;
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
   display: flex;
-  justify-content: flex-end;
-  margin-top: 2em;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: 272727;
+  color: #fff;
 }
 
-.header-text1 {
-  padding-right: 50px;
-  text-decoration: none;
-  color: white;
+.nav-links a {
+  // color: #fff;
 }
 
-.header-text2 {
-  padding-right: 50px;
-  text-decoration: none;
+/* LOGO */
+.logo {
+  font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+/* DROPDOWN MENU */
+.services {
+  position: relative;
+}
+
+.dropdown {
+  background-color: rgb(1, 139, 139);
+  padding: 1em 0;
+  position: absolute; /*WITH RESPECT TO PARENT*/
+  display: none;
+  border-radius: 8px;
+  top: 35px;
+}
+
+.dropdown li + li {
+  margin-top: 10px;
+}
+
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 8em;
+  text-align: center;
+}
+
+.dropdown li:hover {
+  background-color: #272727;
+}
+
+.services:hover .dropdown {
+  display: block;
+}
+
+.projects {
   color: #808080;
   cursor: not-allowed;
-}
-
-.header-text1:hover
- {
-  color: black;
-}
-
-.home {
-  display: flex;
-  justify-content: flex-start;
-  cursor: pointer;
-  padding-right: 90rem;
-}
-
-.header-text3 {
-  color: white;
-  text-decoration: none;
-}
-
-.header-text3:hover{
-  color: black;
 }

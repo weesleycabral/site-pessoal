@@ -2,27 +2,37 @@
   <div class="name_logo">
     <!-- <h1>Wesley Lima</h1> -->
   </div>
+  <!-- <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    </button>
+    <span>Home</span>
+    <span class="example-spacer"></span>
+    <div>
+      <span class="text1">Sobre mim</span>
+    </div>
+    <div class="text2">
+      <span>Projetos</span>
+    </div>
+  </mat-toolbar> -->
 
-  <div class="header-components">
-    <div class="home">
-      <a class="header-text3" routerLink="">Home</a>
-    </div>
-    <div >
-      <a class="header-text1" routerLink="about">Sobre mim </a>
-    </div>
-    <div class="header-text2">
-      <a>Projetos</a>
-    </div>
-    <div class="form-check form-switch">
+  <nav class="navbar">
+    <!-- LOGO -->
+    <i
+      routerLink=""
+      style="font-size: 2rem; cursor: pointer"
+      class="ph-bold ph-house icon"
+    ></i>
 
-      <input
-        class="form-check-input bg-dark"
-        type="checkbox"
-        role="switch"
-        id="flexSwitchCheckDefault"
-      />
-    </div>
-  </div>
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+      <!-- USING CHECKBOX HACK -->
 
-  <!-- <a class="logos"><i class="ph ph-at email"></i></a> -->
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+        <li><a class="about" routerLink="about">Sobre mim</a></li>
+        <li><a class="projects">Projetos</a></li>
+      </div>
+    </ul>
+  </nav>
+
 </header>

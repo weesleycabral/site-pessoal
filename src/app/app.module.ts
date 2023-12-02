@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { HeaderComponent } from './pages/header/header.component';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { HeaderComponent } from './pages/header/header.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
