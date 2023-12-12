@@ -1,4 +1,4 @@
-#main-container{
+#main-container {
   width: 100%;
   min-height: 100vh;
 }
@@ -7,18 +7,29 @@
   background-color: #000;
 }
 
-#main-container.darkTheme h1{
- color: white;
+#main-container.darkTheme h1 {
+  color: white;
 }
 
-#main-container.darkTheme nav{
- background-color: #fafafa;
+#main-container.darkTheme nav {
+  background-color: #fafafa;
 }
 
-#main-container.darkTheme .nav-link{
- color: #000;
+#main-container.darkTheme .nav-link {
+  color: #000;
 }
 
-#main-container.darkTheme .nav-link.is-active{
- color: #cb2d67;
+#main-container.darkTheme .nav-link.is-active {
+  color: #cb2d67;
+}
+
+main {
+  width: 60%;
+  margin: auto
+}
+
+@media (max-width: 768px) {
+  main {
+    width: 90%;
+  }
 }

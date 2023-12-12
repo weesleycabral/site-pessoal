@@ -14,7 +14,10 @@ a {
 
 
 .about:hover, .icon:hover {
-  color: #33D2FF;
+  background-image: linear-gradient(90deg, #1978f3, #9ff9ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   transition: 0.3s ease;
 }
 

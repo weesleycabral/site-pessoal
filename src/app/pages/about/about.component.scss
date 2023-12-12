@@ -1,4 +1,3 @@
-
 .container {
   padding: 25px;
   margin: auto;
@@ -10,5 +9,8 @@
 }
 
 .tech {
-  color: aqua;
+  background-image: linear-gradient(90deg, #1978f3, #9ff9ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
