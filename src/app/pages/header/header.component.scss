@@ -8,12 +8,14 @@ a {
   text-decoration: none;
 }
 
-.about {
+.about,
+.projects {
   color: #fff;
 }
 
-
-.about:hover, .icon:hover {
+.about:hover,
+.icon:hover,
+.projects:hover {
   background-image: linear-gradient(90deg, #1978f3, #9ff9ff);
   -webkit-background-clip: text;
   background-clip: text;
@@ -87,7 +89,7 @@ li {
   display: block;
 }
 
-.projects {
+/* .projects {
   color: #808080;
   cursor: not-allowed;
-}
+} */
