@@ -43,6 +43,15 @@ export class ProjectsComponent {
       iconColor: '#FF8040',
       linkGithub: 'https://github.com/weesleycabral/HotelReservationAPI'
     },
+    {
+      title: 'Cálculo de IMC',
+      subtitle: 'Aplicativo de cálculo de IMC desenvolvido em Flutter',
+      description: 'O aplicativo permite que o usuário insira seu peso e altura e, em seguida, calcula o IMC e exibe o resultado.',
+      icon: this.flutterPath,
+      iconColor: '#02569B',
+      linkGithub: 'https://github.com/weesleycabral/imc-flutter'
+
+    }
 
   ];
 
