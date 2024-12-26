@@ -15,42 +15,76 @@ export class ProjectsComponent {
       title: 'Web Pokedex',
       subtitle: 'Pokedex desenvolvida em Angular, consumindo a PokeAPI. É possível navegar pelos Pokemons separados por geração e realizar pesquisas por nome. \n Ao selecionar um Pokemon, o usuário tem acesso a informações detalhadas, como tipo, diferentes fotos como a da forma shiny, habilidades e estatísticas. ',
       // description: 'Consiste em uma Web Pokedex que consome a PokeAPI, proporcionando aos usuários uma experiência envolvente na busca e exploração de Pokemons. Através da aplicação, é possível navegar pelos Pokemons separados por geração e realizar pesquisas por nome. Ao selecionar um Pokemon, o usuário tem acesso a informações detalhadas, como tipo, diferentes fotos como a da forma shiny, habilidades e estatísticas.',
-      icon: this.angularPath,
-      iconColor: '#DD0031',
+      icons: [
+        {
+          path: this.angularPath,
+          color: '#DD0031'
+        },
+      ],
       linkGithub: 'https://github.com/weesleycabral/web-pokedex'
     },
     {
       title: 'Parking API',
       subtitle: 'API de estacionamento de carros. Desenvolvida com Java/Spring Boot e armazenando dados no MySQL ',
       // description: 'Consiste em uma Web Pokedex que consome a PokeAPI, proporcionando aos usuários uma experiência envolvente na busca e exploração de Pokemons. Através da aplicação, é possível navegar pelos Pokemons separados por geração e realizar pesquisas por nome. Ao selecionar um Pokemon, o usuário tem acesso a informações detalhadas, como tipo, diferentes fotos como a da forma shiny, habilidades e estatísticas.',
-      icon: this.javaPath,
-      iconColor: '#FF8040',
+      icons: [
+        {
+          path: this.javaPath,
+          color: '#FF8040'
+        },
+      ],
       linkGithub: 'https://github.com/weesleycabral/parking-api'
     },
     {
       title: 'TODO',
       subtitle: 'Aplicativo de lista de tarefas (To-Do List) desenvolvido em Flutter',
       description: 'Ele permite que os usuários adicionem, editem e excluam tarefas. Os dados são armazenados localmente no dispositivo.',
-      icon: this.flutterPath,
-      iconColor: '#02569B',
+      icons: [
+        {
+          path: this.flutterPath,
+          color: '#02569B'
+        }
+      ],
       linkGithub: 'https://github.com/weesleycabral/todo'
     },
     {
       title: 'Hotel Reservation',
       subtitle: 'Este projeto permite a gestão de clientes, reservas e quartos de um hotel através de uma API RESTful.',
       // description: 'Ele permite que os usuários adicionem, editem e excluam tarefas. Os dados são armazenados localmente no dispositivo.',
-      icon: this.javaPath,
-      iconColor: '#FF8040',
+      icons: [
+        {
+          path: this.javaPath,
+          color: '#FF8040'
+        },
+      ],
       linkGithub: 'https://github.com/weesleycabral/HotelReservationAPI'
     },
     {
       title: 'Cálculo de IMC',
       subtitle: 'Aplicativo de cálculo de IMC desenvolvido em Flutter',
       description: 'O aplicativo permite que o usuário insira seu peso e altura e, em seguida, calcula o IMC e exibe o resultado.',
-      icon: this.flutterPath,
-      iconColor: '#02569B',
+      icons: [
+        {
+          path: this.flutterPath,
+          color: '#02569B'
+        }
+      ],
       linkGithub: 'https://github.com/weesleycabral/imc-flutter'
-
+    },
+    {
+      title: 'Sistema de Feedback',
+      subtitle: 'Projeto que facilita trocas internas de feedback. Funciona de forma semelhante a um sistema de e-mail, mas é direcionado especificamente para comunicações relacionadas a feedback. Os usuários podem se registrar, fazer login e gerenciar sua caixa de entrada de feedback de forma prática.',
+      icons: [
+        {
+          path: this.angularPath,
+          color: '#DD0031'
+        },
+        {
+          path: this.javaPath,
+          color: '#FF8040'
+        }
+      ],
+      linkGithub: 'https://github.com/weesleycabral/feedback-system'
     }
 
   ];
